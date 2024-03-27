@@ -163,6 +163,8 @@ select(cran, country)
 5. Elige todas las variables entre `r_arch y country` 
 ```{r}
 
+#Seleccionamos las columnas:
+
 select(cran, r_arch:country)
 
 
