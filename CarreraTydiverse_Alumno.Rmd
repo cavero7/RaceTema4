@@ -251,6 +251,8 @@ cran2%>%
 en este orden y almacénalas en `cran3`.
 ```{r}
 
+cran3 <- cran %>%
+  select(ip_id, package, size)
 
 ```
 
