@@ -420,6 +420,10 @@ cran %>%
 
 ```{r}
 
+cran %>%
+  mutate(size_mb = size / 2^20) %>%
+  print()
+
 
 
 ```
