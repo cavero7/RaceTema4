@@ -226,11 +226,14 @@ cran2 <- cran %>%
 11. Ordena `cran2` en orden ascendente según la variable `ip_id`.
 ```{r}
 
-cran2 <- arrange(cran2, ip_id)
+arrange(cran2, ip_id)
 
 ```
 12. Ordena `cran2` en orden descendente según la variable `ip_id`.
 ```{r}
+
+arrange(cran2, desc(ip_id))
+
 
 ```
 12. Ordena `cran2` según los valores de `package e ip_id`.
